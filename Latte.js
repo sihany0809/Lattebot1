@@ -9,4 +9,4 @@ client.on('ready', () => {
      { msg.reply('Dbs마스터!');
     }
  });
-  client.login("process.env.token");
+  client.login(process.env.token);
